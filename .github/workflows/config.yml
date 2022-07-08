@@ -113,3 +113,4 @@ jobs:
                  
       - name: Verify Deployment
         run: kubectl rollout status deployment/demo -n demo-namespace
+ 
